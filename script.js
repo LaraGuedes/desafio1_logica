@@ -14,14 +14,14 @@ let quartaFeira = false;
 
 console.log(quartaFeira);
 
-let suaIdade = 15;
+let suaIdade = 18;
 if (suaIdade >= 18){
     console.log(" Você é maior de idade, poderá curtir o show do Roberto Carlos com participação especial de Mariah Carey.");
 } else{
     console.log("Sinto muito, mas assistirá da tv globo");
 }
 
-let mesDeAniversário = "JUNHO";
+let mesDeAniversário = "JULHO";
 if (mesDeAniversário == "JUNHO" || mesDeAniversário == "AGOSTO" || mesDeAniversário == "DEZEMBRO"){
     console.log(`Uma ou mais opções estão corretas, O mês escolhido foi o mês ${mesDeAniversário}`);
 }else{
